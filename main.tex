@@ -6,33 +6,37 @@
 \usepackage[a4paper,top=25mm,bottom=25mm,left=40mm,right=30mm,bindingoffset=6mm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{listings}
 \usepackage{layout}
 \usepackage{marvosym}
 \usepackage{enumerate}
 \usepackage[usenames,dvipsnames]{color} 
-\usepackage[table,xcdraw]{xcolor} %important for table colors
 \usepackage{gensymb}
-\graphicspath{ {images/} }
 \usepackage{siunitx} % % SI units
 \usepackage{textcomp} % % allow printing of math chars
 \usepackage{wasysym} % % male/female chars
 \usepackage[section]{placeins} %% Stops floats/figures from moving between sections
 \usepackage[font=footnotesize,labelfont=bf]{caption}  %% Adjust figure caption size
-\setcounter{tocdepth}{3} % % makes subsubheadings and paragraphs print to contents
 \usepackage{xpatch} % % allows editing of biblatex style (below)
-\usepackage{longtable}
-\usepackage{seqsplit}% http://ctan.org/pkg/seqsplit
+\usepackage{longtable} % for long tables
+\usepackage{seqsplit}% http://ctan.org/pkg/seqsplit (split long sequences of letters)
 \usepackage{pdflscape} % for long table to print sideways
-\OnehalfSpacing
 \usepackage{afterpage}
 \usepackage{booktabs}
 \usepackage{titlesec}
-\setcounter{secnumdepth}{5}
 \usepackage{nextpage}
-\usepackage{lipsum}
 \usepackage{subfig}
-%\emergencystretch=.5em
+\usepackage{lipsum}
+\usepackage{titlesec} % Alter the level of paragraphs so numbers are added
+\usepackage{calc,soul,fourier} % important for chapter heading style
+\usepackage{tikz} % used for explanatory boxes
+\usepackage[framemethod=TikZ]{mdframed} % used for explanatory boxes
+
+\let\footruleskip\undefined % footrule skip already defined by memoir, undefine it before fancyhdr does again
+\usepackage{fancyhdr} % used for the footer formatting
+
+\setcounter{tocdepth}{3} % % makes subsubheadings and paragraphs print to contents
+\OnehalfSpacing
+\setcounter{secnumdepth}{5} % % sets level of section numbering to 5 levels
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % Citations = biblatex
@@ -53,7 +57,9 @@
 	]{biblatex}
 \addbibresource{main.bib} % % name/location of your .bib file
 
-% %editing of authoryear style
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % editing of authoryear style to be closer to APA style
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \renewcommand*{\nameyeardelim}{\addcomma\space} %adds comma between author and year
 \DeclareNameAlias{sortname}{last-first}  % Make bib list authors all as 'last-first' name order
 \DeclareNameAlias{default}{last-first} % Make bib list editors all as 'last-first' name order
@@ -76,7 +82,6 @@
 % % Issue number in parentheses
 \DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
 
-
 % % Editing full in text citation style
 \DeclareCiteCommand{\fullcite}
   {\usebibmacro{prenote}}
@@ -91,8 +96,6 @@
 % % Adding headers and footers
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % % The following applies fancyhdr to normal pages
-\let\footruleskip\undefined % footrule skip already defined by memoir, undefine it before fancyhdr does again
-\usepackage{fancyhdr}
 
 \fancypagestyle{frontmatter}{%
   \renewcommand{\headrulewidth}{0pt}% No header rule
@@ -110,22 +113,18 @@
   \renewcommand{\headrulewidth}{0pt} % % removes header line 
 }
 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % hyperref - important to load these packages last!
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
-\usepackage{nameref} % % required for hyperef
+\usepackage{nameref} % % required for hyperref
 \usepackage[setpagesize=false,bookmarks=true,hidelinks,plainpages=false]{hyperref} % % Hyperlink referencing
-
 \usepackage[noabbrev,capitalise]{cleveref} % % crossref package, allows crossref of multiple figs together
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-% % Alter the level of paragraphs so numbers are added
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-\usepackage{titlesec}
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
-% % Chapter font style
+% % Chapter heading style
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
-\usepackage{color,calc,graphicx,soul,fourier}
 \definecolor{niceblue}{rgb}{0,0.29,0.52}
 \makeatletter
 \newlength\dlf@normtxtw
@@ -164,15 +163,10 @@
 % % Explanatory boxes
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
-\usepackage{tikz}
 \usetikzlibrary{positioning,calc,shadings}
-
-
 \newcounter{infobox}[chapter]
-
 \renewcommand{\theinfobox}{\thechapter.\arabic{infobox}}
 
-\usepackage[framemethod=TikZ]{mdframed}
 \newenvironment{infobox}[1][]{%
     \refstepcounter{infobox}
     \begin{mdframed}[%

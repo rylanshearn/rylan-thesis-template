@@ -1,0 +1,423 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Load Packages etc.
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\documentclass[12pt,twoside]{memoir}
+\usepackage[a4paper,top=25mm,bottom=25mm,left=40mm,right=30mm,bindingoffset=6mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{layout}
+\usepackage{marvosym}
+\usepackage{enumerate}
+\usepackage[usenames,dvipsnames]{color} 
+\usepackage[table,xcdraw]{xcolor} %important for table colors
+\usepackage{gensymb}
+\graphicspath{ {images/} }
+\usepackage{siunitx} % % SI units
+\usepackage{textcomp} % % allow printing of math chars
+\usepackage{wasysym} % % male/female chars
+\usepackage[section]{placeins} %% Stops floats/figures from moving between sections
+\usepackage[font=footnotesize,labelfont=bf]{caption}  %% Adjust figure caption size
+\setcounter{tocdepth}{3} % % makes subsubheadings and paragraphs print to contents
+\usepackage{xpatch} % % allows editing of biblatex style (below)
+\usepackage{longtable}
+\usepackage{seqsplit}% http://ctan.org/pkg/seqsplit
+\usepackage{pdflscape} % for long table to print sideways
+\OnehalfSpacing
+\usepackage{afterpage}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{5}
+\usepackage{nextpage}
+\usepackage{lipsum}
+\usepackage{subfig}
+%\emergencystretch=.5em
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Citations = biblatex
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % idemtracker=false (stop printing 'idem' on repeated refs!)
+\usepackage[
+		style=authoryear-comp,
+		sorting=nyt, %sort intext by name year then title
+		maxcitenames=2, %max intext authors
+		maxbibnames=30, %max endtext authors
+		uniquename=false, %Robin Smith 2011, Alex Smith 2011 printed as 'Smith 2011a,b'
+		url=false, %Dont print URL
+		firstinits=true, %stops first author full name printed in bibliography
+		uniquelist=false, %will add 'a' and 'b' if authors are identical
+		dashed=false, %print recurring author/editor names instead of replacing them by a dash
+		sortcites=true, %sorts intext citations by same pattern as bibliography
+		backend=biber
+	]{biblatex}
+\addbibresource{main.bib} % % name/location of your .bib file
+
+% %editing of authoryear style
+\renewcommand*{\nameyeardelim}{\addcomma\space} %adds comma between author and year
+\DeclareNameAlias{sortname}{last-first}  % Make bib list authors all as 'last-first' name order
+\DeclareNameAlias{default}{last-first} % Make bib list editors all as 'last-first' name order
+\DeclareFieldFormat{pages}{#1}% no prefix for the `pages` field in the bibliography
+
+% % remove 'In:' only for articles (not book sections)
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+  
+% % remove quotations around endtext titles
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  {title}{#1\isdot}
+  
+% % Remove dot before issue number
+\xpatchbibmacro{volume+number+eid}{%
+  \setunit*{\adddot}%
+}{%
+}{}{}
+
+% % Issue number in parentheses
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+
+% % Editing full in text citation style
+\DeclareCiteCommand{\fullcite}
+  {\usebibmacro{prenote}}
+  {\usedriver
+     {\defcounter{minnames}{6}%
+      \defcounter{maxnames}{6}}
+     {\thefield{entrytype}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Adding headers and footers
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % The following applies fancyhdr to normal pages
+\let\footruleskip\undefined % footrule skip already defined by memoir, undefine it before fancyhdr does again
+\usepackage{fancyhdr}
+
+\fancypagestyle{frontmatter}{%
+  \renewcommand{\headrulewidth}{0pt}% No header rule
+  \renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyhf{}% Clear header/footer
+  \fancyfoot[C]{\thepage}%
+}
+
+\fancypagestyle{mainmatter}{%
+  \fancyhf{}
+  \fancyfoot[LO]{\footnotesize\rightmark}
+  \fancyfoot[RE]{\footnotesize\leftmark}
+  \fancyfoot[LE,RO]{\thepage}	
+  \renewcommand{\footrulewidth}{1pt} % % adds footer line
+  \renewcommand{\headrulewidth}{0pt} % % removes header line 
+}
+
+
+\usepackage{nameref} % % required for hyperef
+\usepackage[setpagesize=false,bookmarks=true,hidelinks,plainpages=false]{hyperref} % % Hyperlink referencing
+
+\usepackage[noabbrev,capitalise]{cleveref} % % crossref package, allows crossref of multiple figs together
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Alter the level of paragraphs so numbers are added
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\usepackage{titlesec}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Chapter font style
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\usepackage{color,calc,graphicx,soul,fourier}
+\definecolor{niceblue}{rgb}{0,0.29,0.52}
+\makeatletter
+\newlength\dlf@normtxtw
+\setlength\dlf@normtxtw{\textwidth}
+\def\myhelvetfont{\def\sfdefault{mdput}}
+\newsavebox{\feline@chapter}
+\newcommand\feline@chapter@marker[1][4cm]{%
+\sbox\feline@chapter{%
+\resizebox{!}{#1}{\fboxsep=1pt%
+\colorbox{niceblue}{\color{white}\bfseries\sffamily\thechapter}%
+}}%
+\rotatebox{90}{%
+\resizebox{%
+\heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}%
+{!}{\scshape\so\@chapapp}}\quad%
+\raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}%
+}
+\newcommand\feline@chm[1][4cm]{%
+\sbox\feline@chapter{\feline@chapter@marker[#1]}%
+\makebox[0pt][l]{% aka \rlap
+\makebox[1cm][r]{\usebox\feline@chapter}%
+}}
+\makechapterstyle{daleif1}{
+\renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so}
+\renewcommand\chaptitlefont{\normalfont\huge\bfseries\scshape\color{niceblue}}
+\renewcommand\chapternamenum{}
+\renewcommand\printchaptername{}
+\renewcommand\printchapternum{\null\hfill\feline@chm[2.5cm]\par}
+\renewcommand\afterchapternum{\par\vskip\midchapskip}
+\renewcommand\printchaptertitle[1]{\chaptitlefont\raggedleft ##1\par}
+}
+\makeatother
+\chapterstyle{daleif1}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Explanatory boxes
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc,shadings}
+
+
+\newcounter{infobox}[chapter]
+
+\renewcommand{\theinfobox}{\thechapter.\arabic{infobox}}
+
+\usepackage[framemethod=TikZ]{mdframed}
+\newenvironment{infobox}[1][]{%
+    \refstepcounter{infobox}
+    \begin{mdframed}[%
+        frametitle={Box \theinfobox\ : #1},
+        skipabove=\baselineskip plus 2pt minus 1pt,
+        skipbelow=\baselineskip plus 2pt minus 1pt,
+        innertopmargin=15pt,
+        innerbottommargin=15pt,
+        innerrightmargin=10pt,
+        innerleftmargin=10pt,
+        frametitleaboveskip= 10pt,
+        frametitlebelowskip= 5pt,
+        linewidth=0pt,
+        linecolor=black,
+        frametitlerule=false,
+        frametitlebackgroundcolor=blue!10,
+        backgroundcolor=blue!10,
+        roundcorner=7pt,
+    ]%
+}{%
+    \end{mdframed}
+}
+
+\mdfsetup{font=\small\SingleSpacing,
+			nobreak=true}
+		
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Remove footnote lines
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\let\oldfootnoterule\footnoterule
+\renewcommand*{\footnoterule}{}
+\setlength{\footmarkwidth}{0em}
+\setlength{\footmarksep}{-\footmarkwidth}
+\setlength{\footparindent}{0em}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Adjust quotation style
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{12cm}
+\setlength\epigraphrule{0pt}
+
+%%%%********************************************************************
+% fancy quotes
+\definecolor{quotemark}{gray}{0.7}
+\makeatletter
+\def\fquote{%
+    \@ifnextchar[{\fquote@i}{\fquote@i[]}%]
+           }%
+\def\fquote@i[#1]{%
+    \def\tempa{#1}%
+    \@ifnextchar[{\fquote@ii}{\fquote@ii[]}%]
+                 }%
+\def\fquote@ii[#1]{%
+    \def\tempb{#1}%
+    \@ifnextchar[{\fquote@iii}{\fquote@iii[]}%]
+                      }%
+\def\fquote@iii[#1]{%
+    \def\tempc{#1}%
+    \vspace{1em}%
+    \noindent%
+    \begin{list}{}{%
+         \setlength{\leftmargin}{0.1\textwidth}%
+         \setlength{\rightmargin}{0.1\textwidth}%
+                  }%
+         \item[]%
+         \begin{picture}(0,0)%
+         \put(-15,-5){\makebox(0,0){\scalebox{3}{\textcolor{quotemark}{``}}}}%
+         \end{picture}%
+         \begingroup\itshape}%
+ %%%%********************************************************************
+ \def\endfquote{%
+ \endgroup\par%
+ \makebox[0pt][l]{%
+ \hspace{0.8\textwidth}%
+ \begin{picture}(0,0)(0,0)%
+ \put(15,15){\makebox(0,0){%
+ \scalebox{3}{\color{quotemark}''}}}%
+ \end{picture}}%
+ \ifx\tempa\empty%
+ \else%
+    \ifx\tempc\empty%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb}%
+   \else%
+       \hfill\rule{100pt}{0.5pt}\\\mbox{}\hfill\tempa,\ \emph{\tempb},\ \tempc%
+   \fi\fi\par%
+   \vspace{0.1em}%
+ \end{list}%
+ }%
+ \makeatother
+ %%%%********************************************************************
+ 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % horizontal rules
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newcommand{\HRule}{\rule{\linewidth}{0.3mm}} % Defines a new command for the horizontal lines, change thickness here
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % Document
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+\begin{document}
+	
+	%titlepage
+	\begin{titlingpage}
+		\thispagestyle{empty}
+		\begin{center}
+			%University logo
+			\vspace{5mm}
+			\SingleSpacing
+			\centering
+			\HUGE{\textsc{
+					Edith Cowan University}}\\
+			\begin{figure}[h]
+				\centering
+				{\includegraphics[width=12cm,keepaspectratio]{figures/Faculty.png}}
+			\end{figure}
+			
+			\vspace{10mm}
+			\HRule
+			\vspace{5mm}
+			%Thesis title
+			\SingleSpacing
+			\centering
+			\huge{\textsc{
+					Evolution, Systematics \&\\ 
+					Geographic Parthenogenesis of\\ 
+					\textit{Ilyodromus}\\ 
+					(Crustacea, Ostracoda)}}\\
+			\vspace{2mm}
+			{\large by}\\
+			\vspace{3mm}
+			%Author's name
+			{\Large Rylan James Shearn, BSc Hons}\\
+			\vspace{5mm}
+			%Graphic
+			\begin{figure}[h]
+				\centering
+				{\includegraphics[width=7cm,keepaspectratio]{example-grid-100x100pt}}
+			\end{figure}
+			
+			\vfill
+			%Degree
+			\normalsize A thesis submitted to Edith Cowan University in accordance with requirements for the degree of \emph{Doctor of Philosophy}\\
+			\vspace{5mm}
+			%Date
+			{\small Submitted 27th February 2015}
+		\end{center}
+	\end{titlingpage}
+	
+	\frontmatter
+	\pagestyle{frontmatter}% frontmatter page style
+	
+	\setcounter{secnumdepth}{5} %set contents depth
+	\titleformat{\paragraph}
+	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+	\titlespacing*{\paragraph}
+	{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+	
+	\chapter{Abstract}
+	\lipsum
+	\clearpage
+	
+	\chapter{Declaration}
+	I certify that this thesis does not, to the best of my knowledge and belief:
+	\begin{enumerate}[i)]
+		\item incorporate without acknowledgement any material previously submitted for a degree or diploma in any institution of higher education;
+		\item contain any material previously published or written by another person except where due reference is made in the text of this thesis; or
+		\item contain any defamatory material\\
+	\end{enumerate}
+	
+	Signed:
+	% Image of your signature
+	\begin{figure}[h]
+		{\includegraphics[width=5cm,keepaspectratio]{example-image-a}}
+	\end{figure}
+	\vspace{1mm}
+	
+	<Your name here>
+	
+	\clearpage
+	
+	\chapter{Acknowledgements}
+	This template for this thesis was written in LaTeX by Rylan Shearn.
+	\lipsum
+	
+	\cleartooddpage
+	\tableofcontents
+	\newpage
+	
+	\cleartooddpage
+	\listoffigures
+	\newpage
+	
+	\cleartooddpage
+	\listoftables
+	%\endgroup
+	\newpage
+	
+	\mainmatter
+	\pagestyle{mainmatter}% mainmatter page style
+	
+	\setcounter{secnumdepth}{5} %set contents depth
+	\titleformat{\paragraph}
+	{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+	\titlespacing*{\paragraph}
+	{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+	
+	\begin{refsection}
+		\chapter{Introduction} \label{intro}
+		\thispagestyle{empty}
+		\newpage
+		\input{chapters/introduction}
+	\end{refsection}
+	
+	\begin{refsection}
+		\chapter[Contents title here][Running header title here]{Chapter 2 title here} \label{ch2}
+		\thispagestyle{empty}
+		\newpage
+		\input{chapters/chapter2}
+	\end{refsection}
+	
+	\begin{refsection}
+		\SingleSpacing
+		\chapter[Contents title here][Running header title here]{Chapter 3 title here} \label{ch3}
+		\vspace{25mm}
+		\thispagestyle{empty}
+		\newpage
+		\OnehalfSpacing
+		\input{chapters/chapter3}
+	\end{refsection}
+	
+	\chapter[Contents title here][Running header title here]{General Discussion} \label{disc}
+	\thispagestyle{empty}
+	\newpage
+	\OnehalfSpacing
+	\input{chapters/discussion}
+	
+	\appendix
+	\chapter[Contents title here][Running header title here]{Supplementary material} \label{supp}
+	\thispagestyle{empty}
+	\newpage
+	\thispagestyle{empty}
+	\cleartooddpage
+	\input{chapters/appendix}
+	
+\end{document}

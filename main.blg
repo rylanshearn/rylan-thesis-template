@@ -1,0 +1,30 @@
+[0] Config.pm:321> INFO - This is Biber 1.9
+[0] Config.pm:324> INFO - Logfile is 'main.blg'
+[32] biber:277> INFO - === lun. janv. 11, 2016, 17:42:53
+[32] Biber.pm:334> INFO - Reading 'main.bcf'
+[125] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[127] Biber.pm:636> INFO - Found 128 citekeys in bib section 1
+[127] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[127] Biber.pm:636> INFO - Found 0 citekeys in bib section 2
+[127] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[127] Biber.pm:636> INFO - Found 0 citekeys in bib section 3
+[127] Biber.pm:636> INFO - Found 0 citekeys in bib section 0
+[147] Biber.pm:3052> INFO - Processing section 1
+[168] Biber.pm:3190> INFO - Looking for bibtex format file 'main.bib' for section 1
+[189] bibtex.pm:979> INFO - Decoding LaTeX character macros into UTF-8
+[212] bibtex.pm:853> INFO - Found BibTeX data source 'main.bib'
+[218] Utils.pm:144> WARN - Duplicate entry key: 'brady_monograph_1896' in file 'main.bib', skipping ...
+[218] Utils.pm:144> WARN - Duplicate entry key: 'sars_freshwater_1896' in file 'main.bib', skipping ...
+[219] Utils.pm:144> WARN - Duplicate entry key: 'schon_cryptic_2012' in file 'main.bib', skipping ...
+[223] Utils.pm:144> WARN - Duplicate entry key: 'williams_sex_1975' in file 'main.bib', skipping ...
+[225] Utils.pm:144> WARN - Duplicate entry key: 'martens_sex_1998' in file 'main.bib', skipping ...
+[227] Utils.pm:144> WARN - Duplicate entry key: 'martens_sex_1998' in file 'main.bib', skipping ...
+[228] Utils.pm:144> WARN - Duplicate entry key: 'pons_sequence-based_2006' in file 'main.bib', skipping ...
+[230] Utils.pm:144> WARN - Duplicate entry key: 'wickham_split-apply-combine_2011' in file 'main.bib', skipping ...
+[1551] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1551] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1551] Biber.pm:2929> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[1551] Biber.pm:2933> INFO - No sort tailoring available for locale 'en-US'
+[2085] bbl.pm:517> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2104] bbl.pm:606> INFO - Output to main.bbl
+[2105] Biber.pm:107> INFO - WARNINGS: 8

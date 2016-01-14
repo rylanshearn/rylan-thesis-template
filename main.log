@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  11 JAN 2016 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.7.17)  14 JAN 2016 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2567,7 +2567,7 @@ Package pdftex.def Info: figures/Faculty.png used on input line 286.
 File: example-grid-100x100pt.png Graphic file (type png)
 
 <use example-grid-100x100pt.png>
-Package pdftex.def Info: example-grid-100x100pt.png used on input line 309.
+Package pdftex.def Info: example-grid-100x100pt.png used on input line 308.
 (pdftex.def)             Requested size: 199.16928pt x 199.19185pt.
  [1
 
@@ -2576,11 +2576,11 @@ sr/share/texlive/texmf-dist/tex/latex/mwe/example-grid-100x100pt.png>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 330.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 329.
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 330.
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 329.
 
-Overfull \hbox (7.39253pt too wide) in paragraph at lines 332--332
+Overfull \hbox (7.39253pt too wide) in paragraph at lines 331--331
 \T1/futs/m/n/12 Lorem ip-sum do-lor sit amet, con-sectetuer adip-isc-ing elit. 
 Ut pu-rus elit, vestibu-
  []
@@ -2589,14 +2589,14 @@ Ut pu-rus elit, vestibu-
 
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 339--340
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 <example-image-a.png, id=126, 401.5pt x 301.125pt>
 File: example-image-a.png Graphic file (type png)
  <use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 345.
+Package pdftex.def Info: example-image-a.png used on input line 344.
 (pdftex.def)             Requested size: 142.26378pt x 106.70024pt.
 
 [3
@@ -2613,13 +2613,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 
 ] [8
 
-] (./main.lof
-Overfull \hbox (6.18945pt too wide) in paragraph at lines 12--12
- [][] [][]\T1/futs/m/n/12 The re-la-tion-ship be-tween species di-ver-gence and
- sec-ondary species 
- []
-
-) [9
+] (./main.lof) [9
 
 ] [10
 
@@ -2630,9 +2624,9 @@ Overfull \hbox (6.18945pt too wide) in paragraph at lines 12--12
 ]
 \blx@maxsegment@1=\count482
 \blx@sectionciteorder@1=\count483
-Package biblatex Info: Reference section=1 on input line 379.
-Package biblatex Info: Setting label 'refsection:1' on input line 379.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 380.
+Package biblatex Info: Reference section=1 on input line 378.
+Package biblatex Info: Setting label 'refsection:1' on input line 378.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 379.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -2641,7 +2635,7 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.382 		\newpage
+l.381 		\newpage
                  [1
 
 ] (./chapters/introduction.texpdfTeX warning (ext4): destination with the same 
@@ -2652,177 +2646,121 @@ l.5
      [2
 
 ]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 9.
-File: example-image-a.png Graphic file (type png)
- <use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 14.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 15.
- [3
+Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
+\T1/futs/m/n/12 Lorem ip-sum do-lor sit amet, con-sectetuer adip-isc-ing elit. 
+Ut pu-rus elit, vestibu-
+ []
+
+[3
 
 ]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 9.
+
+Overfull \hbox (2.25659pt too wide) in paragraph at lines 12--12
+\T1/futs/m/n/12 mau-ris. Nam arcu libero, non-ummy eget, con-sectetuer id, vulp
+u-tate a, magna.
+ []
+
+
+Overfull \hbox (0.68454pt too wide) in paragraph at lines 12--12
+\T1/futs/m/n/12 Donec ve-hic-ula au-gue eu neque. Pel-len-tesque habi-tant morb
+i tris-tique senec-
+ []
+
+[4]
 File: example-image-a.png Graphic file (type png)
  <use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 23.
+Package pdftex.def Info: example-image-a.png used on input line 16.
 (pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 28.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 28.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 28.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 28.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 28.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 28.
- [4] [5]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 17.
+
+Overfull \hbox (2.25659pt too wide) in paragraph at lines 21--21
+\T1/futs/m/n/12 mau-ris. Nam arcu libero, non-ummy eget, con-sectetuer id, vulp
+u-tate a, magna.
+ []
+
+
+Overfull \hbox (0.68454pt too wide) in paragraph at lines 21--21
+\T1/futs/m/n/12 Donec ve-hic-ula au-gue eu neque. Pel-len-tesque habi-tant morb
+i tris-tique senec-
+ []
+
+
+Underfull \vbox (badness 5064) has occurred while \output is active []
+
+ [5]
 [6]
-Package mdframed Info: mdframed works in twoside mode on input line 95.
+Package mdframed Info: mdframed works in twoside mode on input line 31.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 98.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (7.39253pt too wide) in paragraph at lines 39--39
+\T1/futs/m/n/12 Lorem ip-sum do-lor sit amet, con-sectetuer adip-isc-ing elit. 
+Ut pu-rus elit, vestibu-
+ []
 
- [7]
+[7]
+Overfull \hbox (5.51651pt too wide) in paragraph at lines 41--42
+\T1/futs/m/n/12 ma-jor hy-pothe-ses ex-plain-ing the preva-lence of sex-ual re-
+pro-duc-tion (Ta-ble []1.1[]). 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
-Underfull \vbox (badness 1142) has occurred while \output is active []
 
- [9]
-File: example-image-a.png Graphic file (type png)
-
-<use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 160.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
- [10]
-Underfull \vbox (badness 1325) has occurred while \output is active []
-
- [11]
-Overfull \hbox (3.86052pt too wide) in paragraph at lines 176--177
-\T1/futs/m/n/12 through ther-mal ex-pan-sion, pres-sure re-lease, frost riv-ing
-, crys-tal growth ([]Bayly
+Overfull \hbox (2.25659pt too wide) in paragraph at lines 77--77
+\T1/futs/m/n/12 mau-ris. Nam arcu libero, non-ummy eget, con-sectetuer id, vulp
+u-tate a, magna.
  []
 
 
-Overfull \hbox (1.12463pt too wide) in paragraph at lines 178--179
-\T1/futs/m/n/12 com-par-a-tive anal-y-ses at lo-cal, re-gional and inter-contin
-ental scales ([]Blaustein
+Overfull \hbox (0.68454pt too wide) in paragraph at lines 77--77
+\T1/futs/m/n/12 Donec ve-hic-ula au-gue eu neque. Pel-len-tesque habi-tant morb
+i tris-tique senec-
  []
 
-File: example-image-a.png Graphic file (type png)
-<use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 182.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
- <example-image-b.png, id=509, 401.5pt x 301.125pt>
-File: example-image-b.png Graphic file (type png)
-
-<use example-image-b.png>
-Package pdftex.def Info: example-image-b.png used on input line 184.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
- [12] [13 </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-b.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-File: example-image-a.png Graphic file (type png)
-
-<use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 201.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
- [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Overfull \hbox (3.42865pt too wide) in paragraph at lines 220--221
-\T1/futs/m/n/12 ge-netic data that draw from phy-lo-ge-netic species con-cepts,
- in-clud-ing the Gen-
+[8] [9]
+Overfull \hbox (7.39253pt too wide) in paragraph at lines 81--81
+\T1/futs/m/n/12 Lorem ip-sum do-lor sit amet, con-sectetuer adip-isc-ing elit. 
+Ut pu-rus elit, vestibu-
  []
 
-[17]
-Package mdframed Info: mdframed works in twoside mode on input line 222.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 223.
+(Font)              scaled to size 9.19998pt on input line 83.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 223.
+(Font)              scaled to size 6.99199pt on input line 83.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 83.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 223.
+(Font)              scaled to size 9.19998pt on input line 83.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 223.
+(Font)              scaled to size 6.99199pt on input line 83.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 83.
 
-Overfull \hbox (3.59715pt too wide) in paragraph at lines 223--224
-\T1/futs/m/n/10.95 la-tion struc-tur-ing can pro-duce phy-lo-ge-netic gaps be-t
-ween clades within a species
+Overfull \hbox (0.44536pt too wide) in paragraph at lines 83--84
+[]\T1/futs/m/n/12 For ex-am-ple, many plants ex-hibit fac-ul-ta-tive apomixis[]
+[][] to vary-ing de-grees,
  []
 
-
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
- [18]
-
-LaTeX Warning: Reference `morph' on page 1 undefined on input line 233.
-
-[19]
-Overfull \hbox (2.0952pt too wide) in paragraph at lines 247--249
-\T1/futs/m/n/12 Central (more sta-ble) habi-tats should favour sex-ual pop-u-la
--tions for their
+[10]
+Overfull \hbox (7.39253pt too wide) in paragraph at lines 91--91
+\T1/futs/m/n/12 Lorem ip-sum do-lor sit amet, con-sectetuer adip-isc-ing elit. 
+Ut pu-rus elit, vestibu-
  []
 
-File: example-image-a.png Graphic file (type png)
-<use example-image-a.png>
-Package pdftex.def Info: example-image-a.png used on input line 253.
-(pdftex.def)             Requested size: 341.43306pt x 256.0907pt.
-
-Overfull \hbox (6.81253pt too wide) in paragraph at lines 258--259
-\T1/futs/m/n/12 stand-ing this ques-tion, there are sev-eral fac-tors pre-vent-
-ing its im-me-di-ate adop-
- []
-
-[20]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-Overfull \hbox (2.28728pt too wide) in paragraph at lines 272--274
-[]\T1/futs/m/n/12 determine any pat-terns of dif-fer-en-tial dis-tri-bu-tion of
- re-pro-duc-tive mode
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 279.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [22] [23] [24]
-[25] [26] [27]
-Underfull \hbox (badness 1325) in paragraph at lines 279--279
-[][]\T1/futs/m/n/12 Rosen, D. E. (1979). Fishes from the up-lands and in-ter-mo
-n-tane basins
- []
-
-[28]
-Underfull \hbox (badness 2653) in paragraph at lines 279--279
-[][]\T1/futs/m/n/12 Simpson, G. G. (1961). \T1/futs/m/it/12 Prin-ci-ples of an-
-i-mal tax-on-omy\T1/futs/m/n/12 . 20. New York:
- []
-
-[29]
-Underfull \hbox (badness 1320) in paragraph at lines 279--279
-\T1/futs/m/n/12 niche vari-a-tion model. In: \T1/futs/m/it/12 Pop-u-la-tion bi-
-ol-ogy and evo-lu-tion\T1/futs/m/n/12 . Ed. by
- []
-
-[30])
-Package biblatex Info: Reference section=0 on input line 384.
+[11] [12])
+Package biblatex Info: Reference section=0 on input line 383.
 \blx@maxsegment@2=\count484
 \blx@sectionciteorder@2=\count485
-Package biblatex Info: Reference section=2 on input line 386.
-Package biblatex Info: Setting label 'refsection:2' on input line 386.
- [31] [32
+Package biblatex Info: Reference section=2 on input line 385.
+Package biblatex Info: Setting label 'refsection:2' on input line 385.
+ [13] [14
 
-] [33] (./chapters/chapter2.tex [34
+] [15] (./chapters/chapter2.tex [16
 
 ]
 Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
@@ -2830,21 +2768,21 @@ Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
 Ut pu-rus elit, vestibu-
  []
 
-[35
+[17
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 11.
 
 )
-Package biblatex Info: Reference section=0 on input line 391.
+Package biblatex Info: Reference section=0 on input line 390.
 \blx@maxsegment@3=\count486
 \blx@sectionciteorder@3=\count487
-Package biblatex Info: Reference section=3 on input line 393.
-Package biblatex Info: Setting label 'refsection:3' on input line 393.
- [36] [37
+Package biblatex Info: Reference section=3 on input line 392.
+Package biblatex Info: Setting label 'refsection:3' on input line 392.
+ [18] [19
 
-] (./chapters/chapter3.tex [38
+] (./chapters/chapter3.tex [20
 
 ]
 Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
@@ -2852,17 +2790,17 @@ Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
 Ut pu-rus elit, vestibu-
  []
 
-[39
+[21
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 11.
 
 )
-Package biblatex Info: Reference section=0 on input line 401.
- [40] [41
+Package biblatex Info: Reference section=0 on input line 400.
+ [22] [23
 
-] (./chapters/discussion.tex [42
+] (./chapters/discussion.tex [24
 
 ]
 Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
@@ -2870,15 +2808,15 @@ Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
 Ut pu-rus elit, vestibu-
  []
 
-[43
+[25
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 11.
 
-) [44] [45
+) [26] [27
 
-] [46
+] [28
 
 ] (./chapters/appendix.tex
 Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
@@ -2886,14 +2824,14 @@ Overfull \hbox (7.39253pt too wide) in paragraph at lines 6--8
 Ut pu-rus elit, vestibu-
  []
 
-[47
+[29
 
 
 ]
 
 LaTeX Warning: Empty bibliography on input line 11.
 
-) [48]
+) [30]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -2903,41 +2841,34 @@ LaTeX Warning: Empty bibliography on input line 11.
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EE6AD015F0A42D397F71DC9A95A37356;1213.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 5A91EDA6AB3B2555A147C11E0D155A63;1171.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39821 strings out of 493105
- 758844 string characters out of 6137072
- 1243595 words of memory out of 5000000
- 42396 multiletter control sequences out of 15000+600000
- 154512 words of font info for 163 fonts, out of 8000000 for 9000
+ 39169 strings out of 493105
+ 745730 string characters out of 6137072
+ 1231339 words of memory out of 5000000
+ 41906 multiletter control sequences out of 15000+600000
+ 134897 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,78p,10425b,1606s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,74p,10425b,1590s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe
-/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr
-8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (62 pages, 292913 bytes).
+ype1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/u
+topia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8
+a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb>
+Output written on main.pdf (44 pages, 173606 bytes).
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 849 compressed objects within 9 object streams
- 241 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

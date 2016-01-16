@@ -43,5 +43,7 @@ The file `/chapters/introduction.tex` contains example formatting of:
 - inserting and cross referencing information boxes
 - inserting and cross referencing tables
 - inserting and cross referencing footnotes
+- inserting and cross referencing biblatex bibliography entries
 - inserting 'fancy' quotes
 
+The file `main.bib` contains biblatex entries that can be called from within chapters or `main.tex`. You will need to add your own references to this file in the correct format.

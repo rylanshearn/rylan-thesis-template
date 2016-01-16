@@ -1,5 +1,5 @@
 ## rylan-thesis-template
-This template is based on Rylan Shearn's PhD thesis and follows Edith Cowan University format requirements. To view the full finished product of the thesis, see [here](http://ro.ecu.edu.au/theses_ebooks/1/). This template has been made publicly available due to popular demand. If you use it for your thesis or other type of book, it would be appreciated if you acknowledge the work somewhere in the text.
+This template is based on Rylan Shearn's PhD thesis and follows the requirements for theses that are to be submitted to Edith Cowan University - Faculty of Health, Engineering and Science for the award of a PhD/Masters/Honours. To view the full finished product of the thesis, see [here](http://ro.ecu.edu.au/theses_ebooks/1/). This template has been made publicly available after having a number of requests for the code. If you use it for your thesis or other type of book, it would be appreciated if you acknowledge the work somewhere in the text.
 
 ## Requirements
 For the document to compile properly you need to:
@@ -33,6 +33,8 @@ sudo apt-get install texstudio # tex editor
 You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.
 
 ## Usage
+Download the `.zip` file, then extract anywhere you like.
+
 ### File layout
 The file `main.tex` 
 - loads required packages

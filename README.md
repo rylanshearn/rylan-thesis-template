@@ -1,9 +1,6 @@
 # rylan-thesis-template
 Rylan Shearn's PhD thesis template (based Edith Cowan University format requirements)
 
-# tested with
-texstudio
-
 # Requirements
 For the document to compile properly you need to:
 - have latex installed
@@ -31,7 +28,22 @@ sudo apt-get install texstudio # tex editor
 
 4. In TexStudio, select `options` menu, then `configure TeXstudio` then on the left, click on `Build` and make sure `Default Bibliography Tool` is set to `Biber`
 
-## other operating systems
+## Other operating systems
 You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.
 
+# Usage
+The file `main.tex` 
+- loads required packages
+- controls most of the document formatting (including reference formatting)
+- contains the frontmatter text of the manuscript (title page, abstract etc)
+- pulls in the content of each chapter from separate `.tex` files that are located in `/chapters`. So to add new chapters, you need to create a new `.tex` file in the `/chapters` directory, then edit `main.tex` in order to have it pulled into the document at a position of your choice.
 
+The file `/chapters/introduction.tex` contains example formatting of:
+- inserting and cross referencing figures
+- inserting and cross referencing information boxes
+- inserting and cross referencing tables
+- inserting and cross referencing footnotes
+- inserting and cross referencing biblatex bibliography entries
+- inserting 'fancy' quotes
+
+The file `main.bib` contains biblatex entries that can be called from within chapters or `main.tex`. You will need to add your own references to this file in the correct format.

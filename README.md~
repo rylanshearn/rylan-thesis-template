@@ -1,9 +1,6 @@
 # rylan-thesis-template
 Rylan Shearn's PhD thesis template (based Edith Cowan University format requirements)
 
-# tested with
-texstudio
-
 # Requirements
 For the document to compile properly you need to:
 - have latex installed
@@ -15,7 +12,8 @@ The safest option is to make sure you have the same setup as the test system (se
 
 # Installation instructions
 ## Linux
-If you are running Ubuntu or similar, open a terminal with `ctrl+alt+t` and enter the following to install the required packages:
+If you are running Ubuntu or similar, 
+1. open a terminal with `ctrl+alt+t` and enter the following:
 
 ```
 sudo apt-get install texlive
@@ -24,8 +22,26 @@ sudo apt-get install texlive-bibtex-extra biber #needed for biblatex to run with
 sudo apt-get install texlive-science # needed for some math packages
 sudo apt-get install texstudio # tex editor
 ```
+2. Hit `enter` and `yes` to installation questions
 
-## other operating systems
+3. After installation, open TexStudio, make sure that BibLaTeX is selected by going to the `Bibliography` menu, then at the bottom there should be `Type:BibTeX` or `Type:BibLaTeX`, make sure it is `BibLaTeX`
+
+4. In TexStudio, select `options` menu, then `configure TeXstudio` then on the left, click on `Build` and make sure `Default Bibliography Tool` is set to `Biber`
+
+## Other operating systems
 You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.
 
+# Usage
+The file `main.tex` 
+- loads required packages
+- controls most of the document formatting (including reference formatting)
+- contains the frontmatter text of the manuscript (title page, abstract etc)
+- pulls in the content of each chapter from separate `.tex` files that are located in `/chapters`. So to add new chapters, you need to create a new `.tex` file in the `/chapters` directory, then edit `main.tex` in order to have it pulled into the document at a position of your choice.
+
+The file `/chapters/introduction.tex` contains example formatting of:
+- inserting and cross referencing figures
+- inserting and cross referencing information boxes
+- inserting and cross referencing tables
+- inserting and cross referencing footnotes
+- inserting 'fancy' quotes
 

@@ -13,6 +13,7 @@ The safest option is to make sure you have the same setup as the test system (se
 # Installation instructions
 ## Linux
 If you are running Ubuntu or similar, 
+
 1. open a terminal with `ctrl+alt+t` and enter the following:
 
 ```
@@ -32,6 +33,7 @@ sudo apt-get install texstudio # tex editor
 You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.
 
 # Usage
+## File layout
 The file `main.tex` 
 - loads required packages
 - controls most of the document formatting (including reference formatting)
@@ -47,3 +49,10 @@ The file `/chapters/introduction.tex` contains example formatting of:
 - inserting 'fancy' quotes
 
 The file `main.bib` contains biblatex entries that can be called from within chapters or `main.tex`. You will need to add your own references to this file in the correct format.
+
+## Compiling the document
+To compile, use TexStudio, and make sure you have followed the installation instructions and the required settings for TexStudio above, then in TexStudio:
+1. click on the `Build and View` button or `F1`
+2. click `tools` then `bibliography` or `F11`
+3. click on the `Build and View` button or `F1` a second time
+You should then have the PDF compiled correctly in the same directory

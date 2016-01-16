@@ -14,7 +14,7 @@ The safest option is to make sure you have the same setup as the test system (se
 ## Linux
 If you are running Ubuntu or similar, 
 
-1. open a terminal with `ctrl+alt+t` and enter the following:
+- open a terminal with `ctrl+alt+t` and enter the following:
 
 ```
 sudo apt-get install texlive
@@ -23,11 +23,11 @@ sudo apt-get install texlive-bibtex-extra biber #needed for biblatex to run with
 sudo apt-get install texlive-science # needed for some math packages
 sudo apt-get install texstudio # tex editor
 ```
-2. Hit `enter` and `yes` to installation questions
+- Hit `enter` and `yes` to installation questions
 
-3. After installation, open TexStudio, make sure that BibLaTeX is selected by going to the `Bibliography` menu, then at the bottom there should be `Type:BibTeX` or `Type:BibLaTeX`, make sure it is `BibLaTeX`
+- After installation, open TexStudio, make sure that BibLaTeX is selected by going to the `Bibliography` menu, then at the bottom there should be `Type:BibTeX` or `Type:BibLaTeX`, make sure it is `BibLaTeX`
 
-4. In TexStudio, select `options` menu, then `configure TeXstudio` then on the left, click on `Build` and make sure `Default Bibliography Tool` is set to `Biber`
+- In TexStudio, select `options` menu, then `configure TeXstudio` then on the left, click on `Build` and make sure `Default Bibliography Tool` is set to `Biber`
 
 ## Other operating systems
 You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.
@@ -52,7 +52,9 @@ The file `main.bib` contains biblatex entries that can be called from within cha
 
 ## Compiling the document
 To compile, use TexStudio, and make sure you have followed the installation instructions and the required settings for TexStudio above, then in TexStudio:
-1. click on the `Build and View` button or `F1`
-2. click `tools` then `bibliography` or `F11`
-3. click on the `Build and View` button or `F1` a second time
+
+- click on the `Build and View` button or `F1`
+- click `tools` then `bibliography` or `F11`
+- click on the `Build and View` button or `F1` a second time
+
 You should then have the PDF compiled correctly in the same directory

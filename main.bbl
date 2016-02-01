@@ -19,58 +19,6 @@
 
 \refsection{1}
   \sortlist{nyt}{nyt}
-    \entry{baker_characteristics_1965}{incollection}{}
-      \name{labelname}{1}{}{%
-        {{hash=c0d7fc5b2ca975667e497a5d22423a7d}{Baker}{B\bibinitperiod}{Herbert\bibnamedelima G}{H\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=c0d7fc5b2ca975667e497a5d22423a7d}{Baker}{B\bibinitperiod}{Herbert\bibnamedelima G}{H\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=ab4a99d96cab995c906f53a6a1bf4465}{Baker}{B\bibinitperiod}{{HG}}{H\bibinitperiod}{}{}{}{}}%
-        {{hash=3a07367861ab3224706cfbb7e15c9963}{Stebbins}{S\bibinitperiod}{{GL}}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Academic press}%
-      }
-      \strng{namehash}{c0d7fc5b2ca975667e497a5d22423a7d}
-      \strng{fullhash}{c0d7fc5b2ca975667e497a5d22423a7d}
-      \field{sortinit}{B}
-      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
-      \field{labelyear}{1965}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Characteristics and modes of origin of weeds.}
-      \field{booktitle}{The genetics of colonizing species.}
-      \field{title}{Characteristics and modes of origin of weeds.}
-      \field{year}{1965}
-      \field{pages}{147\bibrangedash 68}
-    \endentry
-    \entry{beukeboom_evolutionary_1998}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=053cb12ec023e5b0b99ec61bcd73e884}{Beukeboom}{B\bibinitperiod}{{LW}}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=d3d988ef76ffdb86f69d9666c0385526}{Vrijenhoek}{V\bibinitperiod}{{RC}}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=053cb12ec023e5b0b99ec61bcd73e884}{Beukeboom}{B\bibinitperiod}{{LW}}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=d3d988ef76ffdb86f69d9666c0385526}{Vrijenhoek}{V\bibinitperiod}{{RC}}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a98d782b5419909a92ffff0aab5b2e98}
-      \strng{fullhash}{a98d782b5419909a92ffff0aab5b2e98}
-      \field{sortinit}{B}
-      \field{sortinithash}{1a3a21dbed09540af12d49a0b14f4751}
-      \field{labelyear}{1998}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Evolutionary genetics and ecology of sperm-dependent parthenogenesis}
-      \field{journaltitle}{Journal of Evolutionary Biology}
-      \field{number}{6}
-      \field{title}{Evolutionary genetics and ecology of sperm-dependent parthenogenesis}
-      \field{volume}{11}
-      \field{year}{1998}
-      \field{pages}{755\bibrangedash 782}
-    \endentry
     \entry{darwin_effects_1876}{book}{}
       \name{labelname}{1}{}{%
         {{hash=d0e4f38206db228a7b870a49f6f52db2}{Darwin}{D\bibinitperiod}{Charles}{C\bibinitperiod}{}{}{}{}}%
@@ -110,114 +58,6 @@
       \field{labeltitle}{The Genetical Theory of Natural Selection}
       \field{title}{The Genetical Theory of Natural Selection}
       \field{year}{1930}
-    \endentry
-    \entry{glesener_sexuality_1978}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=41753c339eec0742640b36060e66b92f}{Glesener}{G\bibinitperiod}{Robert\bibnamedelima R}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=56e145e8f70192e123c180987985ea9b}{Tilman}{T\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=41753c339eec0742640b36060e66b92f}{Glesener}{G\bibinitperiod}{Robert\bibnamedelima R}{R\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=56e145e8f70192e123c180987985ea9b}{Tilman}{T\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{dfa8355c586c71b8703b56978435eac1}
-      \strng{fullhash}{dfa8355c586c71b8703b56978435eac1}
-      \field{sortinit}{G}
-      \field{sortinithash}{480ee01f9ffd559b3258d822f54a8ac2}
-      \field{labelyear}{1978}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Sexuality and the components of environmental uncertainty: clues from geographic parthenogenesis in terrestrial animals}
-      \field{journaltitle}{American Naturalist}
-      \field{title}{Sexuality and the components of environmental uncertainty: clues from geographic parthenogenesis in terrestrial animals}
-      \field{year}{1978}
-      \field{pages}{659\bibrangedash 673}
-    \endentry
-    \entry{haag_new_2004}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=8dc729baafaee21bcd2eb28fcd50a045}{Haag}{H\bibinitperiod}{Christoph\bibnamedelima R}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=68f5266c52ea6918791b04d9f4e3b02e}{Ebert}{E\bibinitperiod}{Dieter}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=8dc729baafaee21bcd2eb28fcd50a045}{Haag}{H\bibinitperiod}{Christoph\bibnamedelima R}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-        {{hash=68f5266c52ea6918791b04d9f4e3b02e}{Ebert}{E\bibinitperiod}{Dieter}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Helsinki: Suomen Biologian Seura Vanamo, 1964-}%
-      }
-      \strng{namehash}{bad01f38de2592487cf68cdefe977c14}
-      \strng{fullhash}{bad01f38de2592487cf68cdefe977c14}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labelyear}{2004}
-      \field{datelabelsource}{}
-      \field{labeltitle}{A new hypothesis to explain geographic parthenogenesis}
-      \field{booktitle}{Annales Zoologici Fennici}
-      \field{title}{A new hypothesis to explain geographic parthenogenesis}
-      \field{volume}{41}
-      \field{year}{2004}
-      \field{pages}{539\bibrangedash 544}
-    \endentry
-    \entry{hamilton_fluctuation_1981}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=6df3d61d59d6c11e15b3020196b9148e}{Hamilton}{H\bibinitperiod}{William\bibnamedelima D}{W\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=26901466f0b8959ad50a2a1b70e81499}{Henderson}{H\bibinitperiod}{Peter\bibnamedelima A}{P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=0c2b81e235a00794d0868ad8512a90ae}{Moran}{M\bibinitperiod}{Nancy\bibnamedelima A}{N\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=6df3d61d59d6c11e15b3020196b9148e}{Hamilton}{H\bibinitperiod}{William\bibnamedelima D}{W\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=26901466f0b8959ad50a2a1b70e81499}{Henderson}{H\bibinitperiod}{Peter\bibnamedelima A}{P\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=0c2b81e235a00794d0868ad8512a90ae}{Moran}{M\bibinitperiod}{Nancy\bibnamedelima A}{N\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a372e38305de9eccb42be77a6b44abcf}
-      \strng{fullhash}{1b8b00cd28cccaef6bb924cc0ab3b644}
-      \field{sortinit}{H}
-      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
-      \field{labelyear}{1981}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Fluctuation of environment and coevolved antagonist polymorphism as factors in the maintenance of sex}
-      \field{journaltitle}{Natural selection and social behavior}
-      \field{title}{Fluctuation of environment and coevolved antagonist polymorphism as factors in the maintenance of sex}
-      \field{year}{1981}
-      \field{pages}{363\bibrangedash 381}
-    \endentry
-    \entry{lynch_destabilizing_1984}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=9cc21f36b11b9279d8f08ccb61aa96b0}{Lynch}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=9cc21f36b11b9279d8f08ccb61aa96b0}{Lynch}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{9cc21f36b11b9279d8f08ccb61aa96b0}
-      \strng{fullhash}{9cc21f36b11b9279d8f08ccb61aa96b0}
-      \field{sortinit}{L}
-      \field{sortinithash}{c41a2b5886eeae464e75d1a9df4cd13e}
-      \field{labelyear}{1984}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Destabilizing hybridization, general-purpose genotypes and geographic parthenogenesis}
-      \field{journaltitle}{Quarterly Review of Biology}
-      \field{title}{Destabilizing hybridization, general-purpose genotypes and geographic parthenogenesis}
-      \field{year}{1984}
-      \field{pages}{257\bibrangedash 290}
-    \endentry
-    \entry{moore_evaluation_1977}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=a897b1569baa9c49578b563b07c9269f}{Moore}{M\bibinitperiod}{William\bibnamedelima S}{W\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=a897b1569baa9c49578b563b07c9269f}{Moore}{M\bibinitperiod}{William\bibnamedelima S}{W\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a897b1569baa9c49578b563b07c9269f}
-      \strng{fullhash}{a897b1569baa9c49578b563b07c9269f}
-      \field{sortinit}{M}
-      \field{sortinithash}{4203d16473bc940d4ac780773cb7c5dd}
-      \field{labelyear}{1977}
-      \field{datelabelsource}{}
-      \field{labeltitle}{An evaluation of narrow hybrid zones in vertebrates}
-      \field{journaltitle}{Quarterly Review of Biology}
-      \field{title}{An evaluation of narrow hybrid zones in vertebrates}
-      \field{volume}{52}
-      \field{year}{1977}
-      \field{pages}{263\bibrangedash 277}
     \endentry
     \entry{muller_relation_1964}{article}{}
       \name{labelname}{1}{}{%
@@ -283,69 +123,6 @@
       \field{volume}{27}
       \field{year}{2014}
     \endentry
-    \entry{paulissen_ecology_1988}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=6291ff056e816ffafebae3a34ddf10fa}{Paulissen}{P\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c0e9b23e611e8123a10c5c9fab6c4ceb}{Walker}{W\bibinitperiod}{James\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=9a5b7eccb2320c6a90651f5bd5f40308}{Cordes}{C\bibinitperiod}{James\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=6291ff056e816ffafebae3a34ddf10fa}{Paulissen}{P\bibinitperiod}{Mark\bibnamedelima A}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=c0e9b23e611e8123a10c5c9fab6c4ceb}{Walker}{W\bibinitperiod}{James\bibnamedelima M}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=9a5b7eccb2320c6a90651f5bd5f40308}{Cordes}{C\bibinitperiod}{James\bibnamedelima E}{J\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{7fd7d354fce98610888af46291277a6e}
-      \strng{fullhash}{02c21a3c1d0fe61f0d644bc5d6687157}
-      \field{sortinit}{P}
-      \field{sortinithash}{b8af9282ac256b81613dc9012a0ac921}
-      \field{labelyear}{1988}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Ecology of syntopic clones of the parthenogenetic whiptail lizard, \textit{Cnemidophorus laredoensis}}
-      \field{journaltitle}{Journal of herpetology}
-      \field{title}{Ecology of syntopic clones of the parthenogenetic whiptail lizard, \textit{Cnemidophorus laredoensis}}
-      \field{year}{1988}
-      \field{pages}{331\bibrangedash 342}
-    \endentry
-    \entry{roughgarden_evolution_1972}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=23f08dbdd3ed34d92dbbbf8155f7df86}{Roughgarden}{R\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=23f08dbdd3ed34d92dbbbf8155f7df86}{Roughgarden}{R\bibinitperiod}{Jonathan}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{23f08dbdd3ed34d92dbbbf8155f7df86}
-      \strng{fullhash}{23f08dbdd3ed34d92dbbbf8155f7df86}
-      \field{sortinit}{R}
-      \field{sortinithash}{ff5a3533ecf9d5a03ff60b1e1389b63d}
-      \field{labelyear}{1972}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Evolution of niche width}
-      \field{journaltitle}{American Naturalist}
-      \field{title}{Evolution of niche width}
-      \field{year}{1972}
-      \field{pages}{683\bibrangedash 718}
-    \endentry
-    \entry{tomlinson_advantages_1966}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=1b90df5e134a0cd6fad53ba5b3359769}{Tomlinson}{T\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=1b90df5e134a0cd6fad53ba5b3359769}{Tomlinson}{T\bibinitperiod}{J}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{1b90df5e134a0cd6fad53ba5b3359769}
-      \strng{fullhash}{1b90df5e134a0cd6fad53ba5b3359769}
-      \field{sortinit}{T}
-      \field{sortinithash}{9378dd666f3c24d81538df53aa99e23d}
-      \field{labelyear}{1966}
-      \field{datelabelsource}{}
-      \field{labeltitle}{The advantages of hermaphroditism and parthenogenesis}
-      \field{journaltitle}{Journal of Theoretical Biology}
-      \field{number}{1}
-      \field{title}{The advantages of hermaphroditism and parthenogenesis}
-      \field{volume}{11}
-      \field{year}{1966}
-      \field{pages}{54\bibrangedash 58}
-    \endentry
     \entry{van_valen_new_1973}{article}{}
       \name{labelname}{1}{}{%
         {{hash=04fa24768475fb3700d7f6788d57be26}{Van\bibnamedelima Valen}{V\bibinitperiod\bibinitdelim V\bibinitperiod}{Leigh}{L\bibinitperiod}{}{}{}{}}%
@@ -365,48 +142,6 @@
       \field{volume}{1}
       \field{year}{1973}
       \field{pages}{1\bibrangedash 30}
-    \endentry
-    \entry{vandel_parthenogen`ese_1928}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=c3127a55a09167ae63f6ba65300c8232}{Vandel}{V\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=c3127a55a09167ae63f6ba65300c8232}{Vandel}{V\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c3127a55a09167ae63f6ba65300c8232}
-      \strng{fullhash}{c3127a55a09167ae63f6ba65300c8232}
-      \field{sortinit}{V}
-      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
-      \field{labelyear}{1928}
-      \field{datelabelsource}{}
-      \field{labeltitle}{La parthénogénèse géographique contribution a l`étude biologique et cytologique de la parthénogénèse naturelle}
-      \field{journaltitle}{Bulletin Biologique de la France et de la Belgique}
-      \field{shorttitle}{La parthénogénèse géographique contribution a l`étude biologique et cytologique de la parthénogénèse naturelle}
-      \field{title}{La parthénogénèse géographique Contribution a l`étude biologique et cytologique de la parthénogénèse naturelle}
-      \field{volume}{62}
-      \field{year}{1928}
-      \field{pages}{164\bibrangedash 281}
-    \endentry
-    \entry{vrijenhoek_heterozygosity_1982}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=035150759b62503568998f0715cbe53a}{Vrijenhoek}{V\bibinitperiod}{Robert\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=f5e4a933bc59dec857ed578ec7108575}{Lerman}{L\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=035150759b62503568998f0715cbe53a}{Vrijenhoek}{V\bibinitperiod}{Robert\bibnamedelima C}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=f5e4a933bc59dec857ed578ec7108575}{Lerman}{L\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{09d73d3f77eb283be31de97f079abdc1}
-      \strng{fullhash}{09d73d3f77eb283be31de97f079abdc1}
-      \field{sortinit}{V}
-      \field{sortinithash}{63562d1af2cd68fb37e2e14e0c6d5c96}
-      \field{labelyear}{1982}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Heterozygosity and developmental stability under sexual and asexual breeding systems}
-      \field{journaltitle}{Evolution}
-      \field{title}{Heterozygosity and developmental stability under sexual and asexual breeding systems}
-      \field{year}{1982}
-      \field{pages}{768\bibrangedash 776}
     \endentry
     \entry{weismann_significance_1889}{article}{}
       \name{labelname}{1}{}{%
@@ -447,56 +182,6 @@
       \field{volume}{2}
       \field{year}{1892}
       \field{pages}{101\bibrangedash 222}
-    \endentry
-    \entry{white_heterozygosity_1970}{incollection}{}
-      \name{labelname}{1}{}{%
-        {{hash=bd1341a48019206516361c52ecdd92bd}{White}{W\bibinitperiod}{{MJD}}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=bd1341a48019206516361c52ecdd92bd}{White}{W\bibinitperiod}{{MJD}}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=2f8fe56a2d8da5141ec9ad386e09759c}{Hecht}{H\bibinitperiod}{M.\bibnamedelimi K.}{M\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=36dd465ab879b0aa639b65a3ff095714}{Steer}{S\bibinitperiod}{W.\bibnamedelimi C.}{W\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Appleton-Century-Crofts}%
-      }
-      \strng{namehash}{bd1341a48019206516361c52ecdd92bd}
-      \strng{fullhash}{bd1341a48019206516361c52ecdd92bd}
-      \field{sortinit}{W}
-      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
-      \field{labelyear}{1970}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Heterozygosity and genetic polymorphism in parthenogenetic animals}
-      \field{booktitle}{Essays in evolution and genetics in honor of Theodosius Dobzhansky}
-      \field{title}{Heterozygosity and genetic polymorphism in parthenogenetic animals}
-      \field{year}{1970}
-      \field{pages}{237\bibrangedash 262}
-    \endentry
-    \entry{wright_weeds_1968}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=ae3ab3b7a89aae1184dc7b540ec267ec}{Wright}{W\bibinitperiod}{John\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=2d106571f0ba818f726db43a291cfbc1}{Lowe}{L\bibinitperiod}{Charles\bibnamedelima H}{C\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=ae3ab3b7a89aae1184dc7b540ec267ec}{Wright}{W\bibinitperiod}{John\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=2d106571f0ba818f726db43a291cfbc1}{Lowe}{L\bibinitperiod}{Charles\bibnamedelima H}{C\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{797494bb917f27771fb87a5a6d7e5f7a}
-      \strng{fullhash}{797494bb917f27771fb87a5a6d7e5f7a}
-      \field{sortinit}{W}
-      \field{sortinithash}{e560dae78a85a037c3da51c61467873a}
-      \field{labelyear}{1968}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Weeds, polyploids, parthenogenesis, and the geographical and ecological distribution of all-female species of \textit{Cnemidophorus}}
-      \field{journaltitle}{Copeia}
-      \field{title}{Weeds, polyploids, parthenogenesis, and the geographical and ecological distribution of all-female species of \textit{Cnemidophorus}}
-      \field{year}{1968}
-      \field{pages}{128\bibrangedash 138}
     \endentry
   \endsortlist
 \endrefsection

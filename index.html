@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>rylan-thesis-template by rylanshearn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">rylan-thesis-template</h1>
+      <h2 class="project-tagline">Rylan Shearn&#39;s PhD thesis template (based Edith Cowan University - Faculty of Health, Engineering and Science format requirements)</h2>
+      <a href="https://github.com/rylanshearn/rylan-thesis-template" class="btn">View on GitHub</a>
+      <a href="https://github.com/rylanshearn/rylan-thesis-template/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/rylanshearn/rylan-thesis-template/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="rylan-thesis-template" class="anchor" href="#rylan-thesis-template" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>rylan-thesis-template</h2>
+
+<p>This template is based on Rylan Shearn's PhD thesis and follows the requirements for theses that are to be submitted to Edith Cowan University - Faculty of Health, Engineering and Science for the award of a PhD/Masters/Honours. To view the full finished product of the thesis, see <a href="http://ro.ecu.edu.au/theses_ebooks/1/">here</a>. This template has been made publicly available after having a number of requests for the code. If you use it for your thesis or other type of book, it would be appreciated if you acknowledge the work somewhere in the text.</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<p>For the document to compile properly you need to:</p>
+
+<ul>
+<li>have latex installed</li>
+<li>have biblatex installed</li>
+<li>have biber installed</li>
+<li>make sure you are compiling with biblatex using the biber backend (ie. not using bibtex)</li>
+</ul>
+
+<p>The safest option is to make sure you have the same setup as the test system (see installation instructions below).</p>
+
+<h2>
+<a id="installation-instructions" class="anchor" href="#installation-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation instructions</h2>
+
+<h3>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux</h3>
+
+<p>If you are running Ubuntu or similar, </p>
+
+<ul>
+<li>open a terminal with <code>ctrl+alt+t</code> and enter the following:</li>
+</ul>
+
+<div class="highlight highlight-source-shell"><pre>sudo apt-get install texlive
+sudo apt-get install texlive-latex-extra
+sudo apt-get install texlive-bibtex-extra biber <span class="pl-c">#needed for biblatex to run with biber</span>
+sudo apt-get install texlive-science <span class="pl-c"># needed for some math packages</span>
+sudo apt-get install texstudio <span class="pl-c"># tex editor</span></pre></div>
+
+<ul>
+<li><p>Hit <code>enter</code> and <code>yes</code> to installation questions</p></li>
+<li><p>After installation, open TexStudio, make sure that BibLaTeX is selected by going to the <code>Bibliography</code> menu, then at the bottom there should be <code>Type:BibTeX</code> or <code>Type:BibLaTeX</code>, make sure it is <code>BibLaTeX</code></p></li>
+<li><p>In TexStudio, select <code>options</code> menu, then <code>configure TeXstudio</code> then on the left, click on <code>Build</code> and make sure <code>Default Bibliography Tool</code> is set to <code>Biber</code></p></li>
+</ul>
+
+<h3>
+<a id="other-operating-systems" class="anchor" href="#other-operating-systems" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other operating systems</h3>
+
+<p>You should be able to install the same packages for Windows and Mac, just google the installation instructions. I haven't tested anything on these operating systems but it should work.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Download the <code>.zip</code> file, then extract anywhere you like.</p>
+
+<h3>
+<a id="file-layout" class="anchor" href="#file-layout" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>File layout</h3>
+
+<p>The file <code>main.tex</code> </p>
+
+<ul>
+<li>loads required packages</li>
+<li>controls most of the document formatting (including reference formatting)</li>
+<li>contains the front matter text of the manuscript (title page, abstract etc)</li>
+<li>pulls in the content of each chapter from separate <code>.tex</code> files that are located in <code>/chapters</code>. So to add new chapters, you need to create a new <code>.tex</code> file in the <code>/chapters</code> directory, then edit <code>main.tex</code> in order to have it pulled into the document at a position of your choice.</li>
+</ul>
+
+<p>The file <code>/chapters/introduction.tex</code> contains example formatting of:</p>
+
+<ul>
+<li>inserting and cross referencing figures</li>
+<li>inserting and cross referencing information boxes</li>
+<li>inserting and cross referencing tables</li>
+<li>inserting and cross referencing footnotes</li>
+<li>inserting and cross referencing biblatex bibliography entries</li>
+<li>inserting 'fancy' quotes</li>
+</ul>
+
+<p>The file <code>main.bib</code> contains biblatex entries that can be called from within chapters or <code>main.tex</code>. You will need to add your own references to this file in the correct format.</p>
+
+<h3>
+<a id="compiling-the-document" class="anchor" href="#compiling-the-document" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compiling the document</h3>
+
+<p>To compile, use TexStudio, and make sure you have followed the installation instructions and the required settings for TexStudio above, then open <code>main.tex</code> in TexStudio and:</p>
+
+<ul>
+<li>click on the <code>Build and View</code> button or <code>F1</code>
+</li>
+<li>click <code>tools</code> then <code>bibliography</code> or <code>F11</code>
+</li>
+<li>click on the <code>Build and View</code> button or <code>F1</code> a second time</li>
+</ul>
+
+<p>You should then have the PDF compiled correctly in the same directory</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/rylanshearn/rylan-thesis-template">rylan-thesis-template</a> is maintained by <a href="https://github.com/rylanshearn">rylanshearn</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-73236427-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>

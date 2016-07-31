@@ -21,6 +21,7 @@ sudo apt-get install texlive
 sudo apt-get install texlive-latex-extra
 sudo apt-get install texlive-bibtex-extra biber #needed for biblatex to run with biber
 sudo apt-get install texlive-science # needed for some math packages
+sudo apt-get install texlive-fonts-extra 
 sudo apt-get install texstudio # tex editor
 ```
 - Hit `enter` and `yes` to installation questions
